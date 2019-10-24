@@ -1,0 +1,263 @@
+.modal3 {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 500;
+}
+
+.modal3_content {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    width: 95%;
+    z-index: 501;
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    background-color: #ffffff;
+    margin-top: 85px;
+}
+
+.close_modal_window3 {
+    margin-top: 35px;
+    display: none;
+    color: rgba(46, 63, 105, 1);
+    cursor: pointer;
+}
+
+.close_modal_window3 img {
+    float: right;
+    margin-right: 30px;
+}
+
+.mv4 {
+    color: #363b5d;
+    font-family: "Geometria-ExtraBold";
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.mv5 {
+    color: #363b5d;
+    font-family: "Gilroy-Light";
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.mv6 {
+    color: #ffffff;
+    font-family: "Geometria-ExtraBold";
+    font-size: 18px;
+    font-weight: 700;
+    box-shadow: 0 0 15px 5px rgba(229, 54, 86, 0.4);
+    border-radius: 10px;
+    background-image: linear-gradient(47deg, #e53656 0%, #6082d8 100%);
+    padding: 10px 50px;
+}
+
+.mv7 {
+    color: #939aa3;
+    font-family: "Geometria-Medium";
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+.mv8 {
+    color: #ffffff;
+    font-family: "Geometria-Medium";
+    font-size: 14px;
+    font-weight: 500
+}
+
+.mv3column {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mv3rows {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mv3input {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    color: #939aa3;
+    font-family: "Geometria-Medium";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.mv3input.short {
+    width: 49%;
+}
+
+input {
+    background-color: rgba(197, 213, 230, 0.2);
+    border-radius: 5px;
+    border: 0px;
+    min-height: 30px;
+}
+
+.logotip {
+    padding-top: 115px;
+    float: left;
+    
+}
+
+.logotip a {
+    color: #4a90e2;
+    font-family: "Geometria-Medium";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.column3child {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*Види допомоги */
+.tab2-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #c5d5e6;
+    border-radius: 15px;
+    padding: 10px;
+    position: relative;
+}
+
+/*.tabs-nav2__item.is-active::before, .tabs-nav2__item.is-active::after {
+    content: '';
+    position: absolute;
+    left: 19%;
+    bottom: -16px;
+    border: 15px solid transparent;
+    border-bottom: 15px solid #c5d5e6;
+    z-index: 2;
+}
+
+.tabs-nav2__item.is-active::after {
+    border: 15px solid transparent;
+    border-bottom: 15px solid white;
+    bottom: -17px;
+}
+*/
+
+
+.vvedit {
+    width: 30%;
+}
+
+.sposib-oplati {
+    width: 50%;
+}
+
+.sposib-row1, .sposib-row2 {
+    display: flex;
+    flex-direction: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.sposib-column {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.sposib-row-child {
+    cursor: pointer;
+    min-height: 80px;
+    width: 30%;
+    border-radius: 10px;
+    background-color: #c5d5e6;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-evenly;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Gilroy-Light";
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.sposib_active {
+    background-color: #9c5d9a;
+}
+
+/*Credit card*/
+
+.credit-card {
+    width: 100%;
+    height: 175px;
+    border-radius: 15px;
+    background-color: #c5d5e6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.number-card {
+    width: 90%;
+}
+
+.vvedit-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.vvedit-row2 {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.vvedit-row-ch {
+    width: 20%;
+    height: 40px;
+}
+
+.vvedit-row-ch input, .vvedit-row-ch2 input  {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #f3f7fa;
+    font-family: "Geometria-Medium";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.vvedit-row-ch input[type=text], .vvedit-row-ch2 input[type=text] {
+    text-align: center;
+}
+
+.vvedit-row-ch2 {
+    width: 90%;
+    height: 40px;
+}
+
+.termin-dii {
+    width: 40%;
+}

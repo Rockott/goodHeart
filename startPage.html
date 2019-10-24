@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Стартова</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/startPage.css">
+    <link rel="stylesheet" href="css/modal1.css">
+    <link rel="stylesheet" href="css/modal2.css">
+    <link rel="stylesheet" href="css/modal4.css">
+    <link rel="stylesheet" href="css/tabs.css">
+    <link rel="stylesheet" href="css/tabs2.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="back"></div>
+        <div class="serce">
+            <img src="img/heart.svg" alt="">
+        </div>
+        <div class="header">
+            <div class="logo">
+                <a href="startPage.html"><img src="img/logo.svg" alt="logo"></a>
+            </div>
+            <div class="lang">
+                <ul>
+                    <li><a href="#" id="ua" class="lang_menu">УКР</a></li>
+                    <li><a href="#" class="lang_menu">РУС</a></li>
+                    <li><a href="#" class="lang_menu">EN</a></li>
+                </ul>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="projects.html" class="menu_link">Проекти</a></li>
+                    <li><a href="archive.html" class="menu_link">Архів</a></li>
+                    <li><a href="contacts.html" class="menu_link">Контакти</a></li>
+                    <li><a href="emergency.html" id="term" class="menu_link">Термінова&nbsp;допомога</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <a id="btn_modal_window"><img src="img/search.svg" alt="search"></a>
+                <div id="my_modal" class="modal">
+                    <div class="modal_content">
+                        <div class="poisk"><input type="text" placeholder="Пошук"></div>
+                        <div class="close_modal_window"> <img src="img/cross.svg" alt=""></div>
+                    </div>
+                    <div class="modal2_content">
+                        <div class="modal2_column">
+                            <div class="modal2_row">
+                                <div class="row_child">
+                                    <p class="mv1">Проекти</p>
+                                </div>
+                                <div class="row_child">
+                                    <p class="mv2">Діти</p>
+                                    <p class="mv3">Для операції на сердце маленькому хлопчику, необхідно зібрати гроші
+                                        на ліки</p>
+                                    <hr>
+                                    <p class="mv3">Збираємо гроші на лікування п’ятирічного Василя, який став жертвою
+                                        ДТП</p>
+                                </div>
+                                <div class="row_child">
+                                    <p class="mv2">Війна</p>
+                                    <p class="mv3">Необхідно зібрати ліки для поранених бійців із зони АТО </p>
+                                </div>
+                            </div>
+                            <div class="modal2_row">
+                                <div class="row_child"></div>
+                                <div class="row_child">
+                                    <hr>
+                                </div>
+                                <div class="row_child">
+                                    <hr>
+                                </div>
+                            </div>
+                            <div class="modal2_row">
+                                <div class="row_child">
+                                    <p class="mv1">Архів</p>
+                                </div>
+                                <div class="row_child">
+                                    <p class="mv2">Діти</p>
+                                    <p class="mv3">Необхідно купити ліки для дитячого будинку в місті Київ</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="log">
+                <a href="#" class="log_link">Вхід/Зареєструватися</a>
+            </div>
+        </div>
+        <div class="content">
+            <p class="text2"><span class="text1">Добре серце</span>&nbsp;&nbsp;&nbsp; детальніше про
+                проект&nbsp;&nbsp;<a href="#"><img src="img/arrow.svg" alt=""></a></p><br>
+            <hr><br>
+            <p class="text3">Вже зараз Вже можете допомогти тим, хто дійсно</p>
+            <p class="text3">потребує допомоги</p>
+            <p class="text2">Як ви можете допомогти? &nbsp;&nbsp; <a id="btn4_modal_window" href="#"><img
+                        src="img/arrow.svg"
+                        alt=""></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a
+                    href="#" class="text4" id="btn2_modal_window"> Допомогти вже зараз</a>
+            </p>
+            <div id="my_modal4" class="modal4">
+                <div class="close_modal_window4"> <img src="img/crosswhite.svg" alt=""></div>
+                <div class="modal4_content">
+                    <div class="modal4_text">Види допомоги</div>
+                    <div class="kinds-help">
+                        <div class="help_item"><img class="logo-svg" src="img/handsilver.svg" alt="">
+                            <div>
+                                <p>Зробити</p>
+                                <p class="help_item-text">Натискайте цю кнопку, якщо Ви хочете зробити, наприклад:
+                                    ремонт у дитячому будинку, складну операцію, побудувати дитячий майданчик або
+                                    побудувати житло для переселенців і тд. <br><br> Ця кнопка, для організацій, які
+                                    можуть взяти на себе відповідальність за увесь проект. </p>
+                            </div>
+                        </div>
+                        <div class="help_item"><img class="logo-svg" src="img/handsilver.svg" alt="">
+                            <div>
+                                <p>Фінансова <br>допомога</p>
+                                <p class="help_item-text  two-p">Перераховуйте гроші тим, хто дійсно потребує цього.</p>
+                            </div>
+                        </div>
+                        <div class="help_item"><img class="logo-svg" src="img/handsilver.svg" alt="">
+                            <div>
+                                <p>Матеріальна <br>допомога</p>
+                                <p class="help_item-text two-p">Зберіть ліки, речі, їжу, іграшки та інше, для тих, кому
+                                    це необхідно. </p>
+                            </div>
+                        </div>
+                        <div class="help_item"><img class="logo-svg" src="img/handsilver.svg" alt="">
+                            <div>
+                                <p>Волонтерство</p>
+                                <p class="help_item-text">Допоможіть ділом або професійними навичками. Підтримайте
+                                    проекти своєю роботою. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="my_modal3" class="modal3">
+                <div class="close_modal_window3"> <img src="img/crosswhite.svg" alt=""></div>
+                <div class="modal3_content">
+                    <div class="mv4">Заповніть форму</div>
+                    <div class="tabs">
+                        <div class="tabs__nav tabs-nav">
+                            <div class="tabs-nav__item is-active" data-tab-name="tab-1">
+                                <p>Фіз. особа</p>
+                            </div>
+                            <div class="tabs-nav__item " data-tab-name="tab-2">
+                                <p>Юр. особа</p>
+                            </div>
+                        </div>
+                        <div class="tabs__content">
+                            <div class="tab is-active tab-1">
+                                <div class="mv3column">
+                                    <div class="column3child">
+                                        <div class="mv3row">
+                                            <div>
+                                                <div class="mv3rows">
+                                                    <div class="mv3input short">Ім’я <input type="text"></div>
+                                                    <div class="mv3input short">Фамілія <input type="text"></div>
+                                                </div>
+                                            </div>
+                                            <div class="mv3input">Назва компаніі, організації <input type="text"></div>
+                                            <div class="mv3input">Email-адрес <input type="text"></div>
+                                            <div class="mv3input">Номер телефону <input type="text"></div>
+                                        </div>
+                                    </div>
+                                    <div class="column3child logotip">
+                                        <div><a href="#">+ Логотип</a></div>
+                                    </div>
+                                    <div class="column3child">
+                                        <div class="mv3row">
+                                            <div class="mv3input">Країна <input type="text"></div>
+                                            <div class="mv3rows">
+                                                <div class="mv3input short">Місто <input type="text"></div>
+                                                <div class="mv3input short">Штат, район <input type="text"></div>
+                                            </div>
+                                            <div class="mv3input">Адреса <input type="text"></div>
+                                            <div class="mv3input">Поштовий індекс <input type="text"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab tab-2">
+                                <div class="mv3column">
+                                    <div class="column3child">
+                                        <div class="mv3row">
+                                            <div>
+                                                <div class="mv3rows">
+                                                    <div class="mv3input short">Ім’я <input type="text"></div>
+                                                    <div class="mv3input short">Фамілія <input type="text"></div>
+                                                </div>
+                                            </div>
+                                            <div class="mv3input">Назва компаніі, організації <input type="text"></div>
+                                            <div class="mv3input">Email-адрес <input type="text"></div>
+                                            <div class="mv3input">Номер телефону <input type="text"></div>
+                                            <div class="mv3input">Юридична адреса <input type="text"></div>
+                                            <div>
+                                                <div class="mv3rows">
+                                                    <div class="mv3input short">Найменування банку <input type="text">
+                                                    </div>
+                                                    <div class="mv3input short">МФО банку <input type="text"></div>
+                                                </div>
+                                            </div>
+                                            <div class="mv3input">Розрахунковий рахунок <input type="text"></div>
+                                        </div>
+                                    </div>
+                                    <div class="column3child logotip">
+                                        <div><a href="#">+ Логотип</a></div>
+                                    </div>
+                                    <div class="column3child">
+                                        <div class="mv3row">
+                                            <div class="mv3input">Країна <input type="text"></div>
+                                            <div class="mv3rows">
+                                                <div class="mv3input short">Місто <input type="text"></div>
+                                                <div class="mv3input short">Штат, район <input type="text"></div>
+                                            </div>
+                                            <div class="mv3input">Адреса <input type="text"></div>
+                                            <div class="mv3input">Поштовий індекс <input type="text"></div>
+                                            <div>
+                                                <div class="mv3rows">
+                                                    <div class="mv3input short">ЗКПО <input type="text"></div>
+                                                    <div class="mv3input short">Тип оподаткування <input type="text">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="mv3rows">
+                                                    <div class="mv3input short">ІНН <input type="text"></div>
+                                                    <div class="mv3input short">Система&nbsp;податкування <input
+                                                            type="text"></div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="mv3rows">
+                                                    <div class="mv3input short">Телефон бугалтерії <input type="text">
+                                                    </div>
+                                                    <div class="mv3input short">Факс <input type="text"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mv4"><br>Види допомоги</div>
+                    <div class="mv5">Ви можете змінити вид допомоги</div>
+                    <div class="tabs2">
+                        <div class="tabs__nav2 tabs-nav2">
+                            <div class="tabs-nav2__item is-active" data-tab-name="tab2-1">
+                                <div class="tabs_nav-row"><img class="logo-svg" src="img/handsilver.svg" alt="">
+                                    <div class="arrow"><img src="img/arrow.png" alt=""></div>
+                                </div>
+                                <div class="help-choice">
+                                    <p>Зробити</p>
+                                </div>
+                            </div>
+                            <div class="tabs-nav2__item " data-tab-name="tab2-2">
+                                <div class="tabs_nav-row"><img class="logo-svg" src="img/walletsilver.svg" alt="">
+                                    <div class="arrow"><img src="img/arrow.png" alt=""></div>
+                                </div>
+                                <div class="help-choice">Фінансова<br>допомога</div>
+                            </div>
+                            <div class="tabs-nav2__item " data-tab-name="tab2-3">
+                                <div class="tabs_nav-row"><img class="logo-svg" src="img/clothessilver.svg" alt="">
+                                    <div class="arrow"><img src="img/arrow.png" alt=""></div>
+                                </div>
+                                <div class="help-choice">Матеріальна<br>допомога</div>
+                            </div>
+                            <div class="tabs-nav2__item " data-tab-name="tab2-4">
+                                <div class="tabs_nav-row"><img class="logo-svg" src="img/sheartsilver.svg" alt="">
+                                    <div class="arrow"><img src="img/arrow.png" alt=""></div>
+                                </div>
+                                <div class="help-choice">
+                                    <p>Волонтерство</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs__content2">
+                            <div class="tab2 is-active tab2-1">
+                                <div class="tab2-row">
+                                    <div class="sposib-oplati">
+                                        <div class="sposib-column">
+                                            <div>
+                                                <div class="mv7">Спосіб оплати </div>
+                                                <div class="sposib-row1">
+                                                    <div class="sposib-row-child" data-tab-name="tab3-1"><img
+                                                            src="img/visa.svg" alt="">Карта Visa/MasterCard</div>
+                                                    <div class="sposib-row-child" data-tab-name="tab3-2"><img
+                                                            src="img/privat24.svg" alt="">Приват24</div>
+                                                    <div class="sposib-row-child" data-tab-name="tab3-3"><img
+                                                            src="img/terminals.svg" alt="">Термінали України</div>
+                                                </div>
+                                            </div>
+                                            <div class="sposib-row2">
+                                                <div class="sposib-row-child" data-tab-name="tab3-4"><img
+                                                        src="img/webmoney.svg" alt="">WebMoney</div>
+                                                <div class="sposib-row-child" data-tab-name="tab3-5"><img
+                                                        src="img/PayPal.svg" alt="">PayPal</div>
+                                                <div class="sposib-row-child" data-tab-name="tab3-6"><img
+                                                        src="img/tranzaction.svg" alt="">Банківський переказ</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vvedit">
+                                        <div class="mv7">Введіть наступні данні</div>
+                                        <div class="credit-card">
+                                            <div class="number-card">
+                                                <div class="mv8">Номер карти</div>
+                                                <div class="vvedit-row">
+                                                    <div class="vvedit-row-ch"><input type="text"></div>
+                                                    <div class="vvedit-row-ch"><input type="text"></div>
+                                                    <div class="vvedit-row-ch"><input type="text"></div>
+                                                    <div class="vvedit-row-ch"><input type="text"></div>
+                                                </div>
+                                            </div>
+                                            <div class="vvedit-row2">
+                                                <div class="termin-dii">
+                                                    <div class="mv8">Термін дії</div>
+                                                    <div class="vvedit-row-ch2"><input type="text"></div>
+                                                </div>
+                                                <div class="termin-dii">
+                                                    <div class="mv8">CVC/CVV</div>
+                                                    <div class="vvedit-row-ch2"><input type="text"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab2 tab2-2">
+                                <div class="tab2-row">
+                                    <div class="sposib-oplati">
+                                        <div class="sposib-column">
+                                            <div>
+                                                <div class="mv7">Спосіб оплати </div>
+                                                <div class="sposib-row1">
+                                                    <div class="sposib-row-child" data-tab-name="tab3-1"><img
+                                                            src="img/visa.svg" alt="">Карта Visa/MasterCard</div>
+                                                    <div class="sposib-row-child" data-tab-name="tab3-2"><img
+                                                            src="img/privat24.svg" alt="">Приват24</div>
+                                                    <div class="sposib-row-child" data-tab-name="tab3-3"><img
+                                                            src="img/terminals.svg" alt="">Термінали України</div>
+                                                </div>
+                                            </div>
+                                            <div class="sposib-row2">
+                                                <div class="sposib-row-child" data-tab-name="tab3-4"><img
+                                                        src="img/webmoney.svg" alt="">WebMoney</div>
+                                                <div class="sposib-row-child" data-tab-name="tab3-5"><img
+                                                        src="img/PayPal.svg" alt="">PayPal</div>
+                                                <div class="sposib-row-child" data-tab-name="tab3-6"><img
+                                                        src="img/tranzaction.svg" alt="">Банківський переказ</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vvedit">
+                                        <div class="mv7">Введіть наступні данні</div>
+                                        <div class="credit-card">
+                                            <div class="number-card">
+                                                <div class="mv8">Номер карти</div>
+                                                <div class="vvedit-row">
+                                                    <div class="vvedit-row-ch"><input type="text"></div>
+                                                    <div class="vvedit-row-ch"><input type="text"></div>
+                                                    <div class="vvedit-row-ch"><input type="text"></div>
+                                                    <div class="vvedit-row-ch"><input type="text"></div>
+                                                </div>
+                                            </div>
+                                            <div class="vvedit-row2">
+                                                <div class="termin-dii">
+                                                    <div class="mv8">Термін дії</div>
+                                                    <div class="vvedit-row-ch2"><input type="text"></div>
+                                                </div>
+                                                <div class="termin-dii">
+                                                    <div class="mv8">CVC/CVV</div>
+                                                    <div class="vvedit-row-ch2"><input type="text"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab2 tab2-3">
+                                <div class="tab2-row">
+                                    <div class="sposib-oplati">
+                                        <div class="sposib-column">
+                                            <div>
+                                                <div class="mv7">Спосіб оплати </div>
+                                                <div class="sposib-row1">
+                                                    <div class="sposib-row-child" data-tab-name="tab3-1"><img
+                                                            src="img/visa.svg" alt="">Карта Visa/MasterCard</div>
+                                                    <div class="sposib-row-child" data-tab-name="tab3-2"><img
+                                                            src="img/privat24.svg" alt="">Приват24</div>
+                                                    <div class="sposib-row-child" data-tab-name="tab3-3"><img
+                                                            src="img/terminals.svg" alt="">Термінали України</div>
+                                                </div>
+                                            </div>
+                                            <div class="sposib-row2">
+                                                <div class="sposib-row-child" data-tab-name="tab3-4"><img
+                                                        src="img/webmoney.svg" alt="">WebMoney</div>
+                                                <div class="sposib-row-child" data-tab-name="tab3-5"><img
+                                                        src="img/PayPal.svg" alt="">PayPal</div>
+                                                <div class="sposib-row-child" data-tab-name="tab3-6"><img
+                                                        src="img/tranzaction.svg" alt="">Банківський переказ</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vvedit">
+                                        <div class="mv7">Введіть наступні данні</div>
+                                        <div class="credit-card">
+                                            <div class="number-card">
+                                                <div class="mv8">Номер карти</div>
+                                                <div class="vvedit-row">
+                                                    <div class="vvedit-row-ch"><input type="text"></div>
+                                                    <div class="vvedit-row-ch"><input type="text"></div>
+                                                    <div class="vvedit-row-ch"><input type="text"></div>
+                                                    <div class="vvedit-row-ch"><input type="text"></div>
+                                                </div>
+                                            </div>
+                                            <div class="vvedit-row2">
+                                                <div class="termin-dii">
+                                                    <div class="mv8">Термін дії</div>
+                                                    <div class="vvedit-row-ch2"><input type="text"></div>
+                                                </div>
+                                                <div class="termin-dii">
+                                                    <div class="mv8">CVC/CVV</div>
+                                                    <div class="vvedit-row-ch2"><input type="text"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab2 tab2-4">
+                                <div class="tab2-row">
+                                    <div class="sposib-oplati">
+                                        <div class="sposib-column">
+                                            <div>
+                                                <div class="mv7">Спосіб оплати </div>
+                                                <div class="sposib-row1">
+                                                    <div class="sposib-row-child" data-tab-name="tab3-1"><img
+                                                            src="img/visa.svg" alt="">Карта Visa/MasterCard</div>
+                                                    <div class="sposib-row-child" data-tab-name="tab3-2"><img
+                                                            src="img/privat24.svg" alt="">Приват24</div>
+                                                    <div class="sposib-row-child" data-tab-name="tab3-3"><img
+                                                            src="img/terminals.svg" alt="">Термінали України</div>
+                                                </div>
+                                            </div>
+                                            <div class="sposib-row2">
+                                                <div class="sposib-row-child" data-tab-name="tab3-4"><img
+                                                        src="img/webmoney.svg" alt="">WebMoney</div>
+                                                <div class="sposib-row-child" data-tab-name="tab3-5"><img
+                                                        src="img/PayPal.svg" alt="">PayPal</div>
+                                                <div class="sposib-row-child" data-tab-name="tab3-6"><img
+                                                        src="img/tranzaction.svg" alt="">Банківський переказ</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vvedit">
+                                        <div class="mv7">Введіть наступні данні</div>
+                                        <div class="credit-card">
+                                            <div class="number-card">
+                                                <div class="mv8">Номер карти</div>
+                                                <div class="vvedit-row">
+                                                    <div class="vvedit-row-ch"><input type="text"></div>
+                                                    <div class="vvedit-row-ch"><input type="text"></div>
+                                                    <div class="vvedit-row-ch"><input type="text"></div>
+                                                    <div class="vvedit-row-ch"><input type="text"></div>
+                                                </div>
+                                            </div>
+                                            <div class="vvedit-row2">
+                                                <div class="termin-dii">
+                                                    <div class="mv8">Термін дії</div>
+                                                    <div class="vvedit-row-ch2"><input type="text"></div>
+                                                </div>
+                                                <div class="termin-dii">
+                                                    <div class="mv8">CVC/CVV</div>
+                                                    <div class="vvedit-row-ch2"><input type="text"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div><a href="#" class="mv6">Допомогти</a></div>
+                </div>
+            </div>
+            <br>
+            <hr><br>
+            <p class="text3">Якщо Вам необхідна допомога, додайте проект</p>
+            <p class="text2">Додати проект &nbsp;&nbsp; <a href="#"><img src="img/plus.svg" alt=""></a></p>
+        </div>
+        <div class="footer">
+            <div class="share">
+                <p class="footer_text">Розповісти всім:&nbsp;&nbsp; <a href="#"><img src="img/twit.svg"
+                            alt=""></a>&nbsp;&nbsp; <a href="#"><img src="img/fbook.svg" alt=""></a> &nbsp;&nbsp; <a
+                        href="#"><img src="img/vk.svg" alt=""></a></p>
+            </div>
+            <div class="sticky">
+                <a href="#"><img src="img/chat.svg" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <script src="script/current.js"></script>
+    <script src="script/script.js"></script>
+    <script src="script/tabs.js"></script>
+    <script src="script/tabs2.js"></script>
+    <script src="script/tabs4.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,183 @@
+@font-face {
+    font-family: 'Geometria-Medium';
+    src: url('../fonts/Geometria/Geometria-Medium.eot');
+    src: url('../fonts/Geometria/Geometria-Medium.eot') format('embedded-opentype'),
+        url('../fonts/Geometria/Geometria-Medium.woff2') format('woff2'),
+        url('../fonts/Geometria/Geometria-Medium.woff') format('woff'),
+        url('../fonts/Geometria/Geometria-Medium.ttf') format('truetype'),
+        url('../fonts/Geometria/Geometria-Medium.svg#GeometriaMedium') format('svg');
+}
+
+@font-face {
+    font-family: 'Geometria-ExtraBold';
+    src: url('../fonts/Geometria/Geometria-ExtraBold.eot');
+    src: url('../fonts/Geometria/Geometria-ExtraBold.eot') format('embedded-opentype'),
+        url('../fonts/Geometria/Geometria-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Geometria/Geometria-ExtraBold.woff') format('woff'),
+        url('../fonts/Geometria/Geometria-ExtraBold.ttf') format('truetype'),
+        url('../fonts/Geometria/Geometria-ExtraBold.svg#Geometria-ExtraBold') format('svg');
+}
+
+@font-face {
+    font-family: 'Gilroy-Light';
+    src: url('../fonts/Gilroy-FREE/Gilroy-Light.eot');
+    src: url('../fonts/Gilroy-FREE/Gilroy-Light.eot') format('embedded-opentype'),
+        url('../fonts/Gilroy-FREE/Gilroy-Light.woff2') format('woff2'),
+        url('../fonts/Gilroy-FREE/Gilroy-Light.woff') format('woff'),
+        url('../fonts/Gilroy-FREE/Gilroy-Light.ttf') format('truetype'),
+        url('../fonts/Gilroy-FREE/Gilroy-Light.svg#Gilroy-Light') format('svg');
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+/* Header */
+
+.header {
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 97%;
+    padding-top: 10px;
+}
+
+.lang {
+    width: 10%;
+
+}
+
+.lang ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.lang_menu {
+    color: #c5d5e6;
+    font-family: "Geometria-Medium";
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -0.96px;
+    opacity: 0.5;
+}
+
+#ua {
+    opacity: 1;
+}
+
+.menu {
+    width: 37%;
+}
+
+.menu ul {
+    display: flex;
+    /*justify-content: space-between;*/
+    justify-content: center;
+    list-style: none;
+}
+
+.menu ul li {
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.menu_link {
+    color: #c5d5e6;
+    font-family: "Geometria-ExtraBold";
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.menu__active {
+    border-radius: 5px;
+    background-color: #2c324f;
+    padding: 6px 15px;
+}
+
+#term {
+    color: #ffffff;
+    font-family: "Geometria-ExtraBold";
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-image: linear-gradient(270deg, #6082d7 0%, #e73453 100%);
+    padding: 6px 15px;
+}
+
+.log {
+    width: 15%;
+}
+
+.log_link {
+    opacity: 0.5;
+    color: #c5d5e6;
+    font-family: "Geometria-Medium";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#btn_modal_window {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 899px) {
+    .lang, .log, .menu {
+        width: auto;
+    }
+
+    .lang ul, .menu ul {
+        padding-left: 0;
+    }
+
+    .menu ul li {
+    padding-right: 1%;
+    padding-left: 0%;
+    }
+
+
+}
+
+
+/*Content*/
+sup {
+    color: #e63554;
+    font-family: "Gilroy-ExtraBold";
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.tape-img {
+    padding-right: 4%;
+    min-width: 400px;
+}
+
+/* Footer */
+
+.footer_text {
+    color: #c5d5e6;
+    font-family: "Geometria-ExtraBold";
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    width: 90%;
+}
+
+.sticky {
+    position: fixed;
+    bottom: 0%;
+    right: 5%;
+}

@@ -1,0 +1,102 @@
+.tabs2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    width: 85%;
+    margin-bottom: 30px;
+}
+
+.tabs-nav2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 95%;
+    align-self: center;
+    margin-bottom: 15px;
+}
+
+.tabs-nav2__item {
+    cursor: pointer;
+    flex: 1;
+    color: #c5d5e6;
+    font-family: "Geometria-ExtraBold";
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    padding-bottom: 43px;
+
+}
+
+.tabs-nav2__item text {
+    align-self: center;
+}
+
+.tabs_nav-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.tabs_nav-row img {
+    min-width: 35px;
+    min-height: 35px;
+    padding: 20px;
+    border: 2px solid #c5d5e6;
+    border-radius: 15px;
+}
+
+.tabs-nav2__item.is-active {
+    color: #363b5d;
+    font-family: "Geometria-ExtraBold";
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.tabs-nav2__item.is-active img {
+    border-radius: 15px;
+    background-color: #9c5d9a;
+    border: 0px;
+}
+
+.tabs-nav2__item.is-active .arrow {
+    display: block;
+}
+
+.tab2 {
+    display: none;
+}
+
+.tab2.is-active {
+    display: block;
+}
+
+.tabs__content2 {
+    align-self: center;
+    width: 95%;
+}
+
+.arrow {
+    padding-right: 45%;
+    padding-top: 4px;
+    display: none;
+    text-align: center;
+}
+
+
+.arrow img{
+    position: absolute;
+    width: 25px !important;
+    min-height: 10px !important;
+    padding: 9px 0px !important;
+    background-color: #fff !important;
+    border-radius: 0px !important;
+    opacity: 1;
+    z-index: 2;
+
+}
+
+.help-choice {
+    padding-top: 5%;
+}

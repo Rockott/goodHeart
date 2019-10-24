@@ -1,0 +1,45 @@
+.tabs {
+	padding-top: 20px;
+	display: flex;
+	flex-direction: column;
+	width: 85%;
+}
+
+.tabs-nav {
+	display: flex;
+	border-radius: 5px;
+	border: 2px solid #363b5d;
+	width: 230px;
+	height: 40px;
+	align-self: center;
+}
+.tabs-nav__item {
+	cursor: pointer;
+	flex: 1;
+	border: 1px solid #363b5d;
+	color: #363b5d;
+	text-align: center;
+	position: relative;
+	font-family: "Geometria-Medium";
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.tabs-nav__item p {
+	 margin-top: 10px;
+	}
+
+.tabs-nav__item.is-active {
+	background-color: #363b5d;
+	color: #ffffff;
+}
+
+.tab {
+	display: none;
+}
+.tab.is-active { display: block; }
+
+.tabs__content {
+	align-self: center;
+	width: 95%;
+}

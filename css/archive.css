@@ -1,0 +1,166 @@
+/* Main */
+
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+}
+
+/* Background */
+
+.back {
+	position: fixed;
+	z-index: 0;
+	height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(-39deg, #4792e1 0%, #4174b3 35%, #363b5d 100%);
+}
+
+
+/* Content */
+
+.content {
+	position: relative;
+	z-index: 1;
+	width: 100%;
+}
+
+.titles {
+	width: 98%;
+}
+
+.titles ul{
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	color: #ffffff;
+	font-family: "Geometria-ExtraBold";
+	font-size: 64px;
+	font-weight: 700;
+}
+
+.inactive {
+	opacity: 0.15;
+}
+
+.kindsHelp {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.kindsHelp a{
+	color: #c5d5e6;
+	font-family: "Geometria-Medium";
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.kindsHelp img {
+	vertical-align: middle;
+}
+
+.feed {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.tape {
+	width: 87%;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px solid rgba(216, 216, 216, 0.5);
+}
+
+.tape-child {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+}
+
+.tape-tchild {
+	display: flex;
+	justify-content: space-between;
+	flex-basis: 100%;
+}
+
+.tdiv {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 50%;
+	align-self: flex-end;
+}
+
+.tdiv img {
+	border-radius: 5px;
+	background-color: #9c5d9a;
+	padding: 5px 5px;
+}
+
+.fdiv {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.tape-child hr {
+	width: 100%;
+}
+
+.mhelp {
+	display: inline-flex;
+	justify-content: space-between;	
+	color: #c5d5e6;
+	font-family: "Gilroy-Light";
+	font-size: 12px;
+	font-weight: 300;
+}
+
+.date {
+	color: #c5d5e6;
+	font-family: "Gilroy-Light";
+	font-size: 12px;
+	font-weight: 300;
+}
+
+.fheader {
+	color: #ffffff;
+	font-family: "Geometria-ExtraBold";
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.simple {
+	color: #ffffff;
+	font-family: "Gilroy-Light";
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.progress {
+	color: #b4c4d8;
+	font-family: "Gilroy-Light";
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.helpers {
+	opacity: 0.5;
+	color: #b4c4d8;
+	font-family: "Gilroy-Light";
+	font-size: 14px;
+	font-weight: 300;
+}
+
+/* Footer */
+.footer {
+	display: flex;
+	flex-direction: row-reverse;
+	z-index: 1;
+	width: 98%;
+}

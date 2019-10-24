@@ -1,0 +1,88 @@
+/* Main */
+
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+}
+
+/* Background */
+
+.back {
+	z-index: 0;
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(-39deg, #4792e1 0%, #4174b3 35%, #363b5d 100%);
+}
+
+/* Content */
+
+.content {
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.contact, .fill, .inputs {
+	align-self: center;
+}
+
+.contact {
+	color: #ffffff;
+	font-family: "Geometria-ExtraBold";
+	font-size: 64px;
+	font-weight: 700;
+}
+
+.fill {
+	color: #ffffff;
+	font-family: "Gilroy-Light";
+	font-size: 18px;
+	font-weight: 300;
+}
+
+input {
+	color: #ffffff;
+	font-family: "Geometria-Medium";
+	font-size: 14px;
+	font-weight: 500;
+	border-radius: 5px;
+	border: 0px solid;
+}
+
+.text-data {
+	width: 200px;
+	height: 30px;
+	border-radius: 5px;
+	background-color: rgba(197, 213, 230, 0.2);
+}
+
+.send {
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	width: 200px;
+	height: 30px;
+}
+
+
+
+/* Footer */
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 1;
+	width: 95%;
+}
+
+.social {
+	display: flex;
+	justify-content: center;
+	flex-grow: 1;
+}
